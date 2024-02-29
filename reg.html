@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="college.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="clgpic" id="section--1">
+        <logo>
+          <img src="logo11.jpg">
+          <h2>Khalsa College Of Nursing<br>Amritsar</h2>
+      
+      
+      </logo>
+      </div>
+      <header class="nav">
+
+        <nav class="nav__links" style="margin-left:10px ;"><div >
+            <a class="nava nav__link btn--scroll-to" href="E:\project\college.html" style="border: none; " >Home</a>
+            <!-- <a class="nav__link" href="#section--2">Governing-Council</a>
+            <a class="nav__link" href="#section--3">College</a>
+            <a class="nav__link" href="#section--4">Faculty</a>
+            <a class="nav__link" href="#section--5">Events</a>
+            <a class="nav__link" href="#section--6">About us</a> -->
+          </div>
+            
+        
+        
+        
+        </nav>
+      </header>
+        <div>
+            <form name="client" method="post" action="submitf.php"  onsubmit="return validate1();">
+                <table class="table" width="100%">
+                  <tr>
+                    <th colspan='2'>ADMISSION/REGISTRATION FORM 2020</th>
+                  </tr>
+                  <tr><td>
+                    <label for="" class="col-sm-3 control-label">Course Applied for:</label>
+                    </td><td>
+                    <select name="course" class="select_city"> 
+                        <option value=''>Choose Course</option>
+                        <option value='ANM (2 YEARS)'>ANM (2 YEARS)</option>
+                <option value='GNM (3 YEARS)'>GNM (3 YEARS)</option>
+                <option value='BSC NURSING (4 YEARS)'>BSC NURSING (4 YEARS)</option>
+                <option value='MSC NURSING (2 YEARS)'>MSC NURSING (2 YEARS)</option>
+                <option value='POST BASIC BSC NURSING (2 YEARS)'> POST BASIC BSC NURSING (2 YEARS)</option>
+                <option value='HOME BASED CARE HELPER (6 MONTHS)'>CERTIFICATE COURSE IN HOME BASED CARE HELPER (6 MONTHS)</option>
+                <option value='EMERGENCY-CUM-AMBULANCE ATTENDENT (1 YEAR)'> CERTIFICATE COURSE IN EMERGENCY-CUM-AMBULANCE ATTENDENT (1 YEAR)</option>
+                <option value='OPERATION THEATRE ATTENDENT (1 YEAR)'> CERTIFICATE COURSE IN OPERATION THEATRE ATTENDENT (1 YEAR)</option>
+                <option value='HOSPITAL AND HOME BASED CARE ATTENDENT (1 YEAR)'> CERTIFICATE COURSE IN HOSPITAL AND HOME BASED CARE ATTENDENT (1 YEAR)</option>
+                    </select>
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Candidate's Name:</label>
+                    </td><td>
+                        <input type='text' name="cname" class="select_city" value="" placeholder="Candidate's Name">
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Father's Name:</label>
+                    </td><td>
+                        <input type='text' name="fname" class="select_city" value="" placeholder="Father's Name">
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Mother's Name:</label>
+                    </td><td>
+                        <input type='text' name="mname" class="select_city" value="" placeholder="Mother's Name">
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Date of Birth:</label>
+                    </td><td>
+                        <input type='date' name="dob" class="select_city" value="" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Category:</label>
+                    </td><td>
+                        <select name="category" class="select_city"> 
+                            <option value='General'>General</option>
+                            <option value='SC'>SC</option>
+                            <option value='ST'>ST</option>
+                            <option value='OBC'>OBC</option>
+                            <option value='Other'>Other</option>
+                        </select>
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Mobile:</label>
+                    </td><td>
+                        <input type='text' name="mobile" class="select_city" value="" placeholder="Mobile" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Email:</label>
+                    </td><td>
+                        <input type='text' name="email" class="select_city" value="" placeholder="Email" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Address:</label>
+                    </td><td>
+                        <textarea  name="address" class="select_city" style='min-height:100px;max-height:100px;height:100px'></textarea>
+                    </tr> 
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Adhaar Card Number:</label>
+                    </td><td>
+                        <input type='text' name="adhaar_card" class="select_city" value="" placeholder="Adhaar Card Number" >
+                    </td></tr>
+                  <tr><th colspan='2'>Details of last qualifying exam:</th></tr>
+                  </tr>
+                  <tr><td>
+                    <label for="" class="col-sm-3 control-label">Class</label>
+                    </td><td>
+                    <input type='text' name="class" class="select_city" value="" placeholder="Class" >
+                    </td></tr>  <tr><td>
+                    <label for="" class="col-sm-3 control-label">Stream</label>
+                    </td><td>
+                    <input type='text' name="stream" class="select_city" value="" placeholder="Stream" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Board/University</label>
+                    </td><td>
+                    <input type='text' name="board_university" class="select_city" value="" placeholder="Board/University" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Passing Year</label>
+                    </td><td>
+                    <input type='text' name="passing_year" class="select_city" value="" placeholder="Passing Year" >
+                    </td></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Total Marks</label>
+                    </td><td>
+                    <input type='number' name="total_marks" class="select_city" value="" placeholder="" >
+                    </td></tr></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Total Marks obtained</label>
+                    </td><td>
+                    <input type='number' name="total_marks_obtained" class="select_city" value="" placeholder="" >
+                    </td></tr></tr>
+                    <tr><td>
+                    <label for="" class="col-sm-3 control-label">Percentage of marks (%)</label>
+                    </td><td>
+                    <input type='number' name="percentage" class="select_city" value="" placeholder="" >
+                    </td></tr>
+                    <tr><td colspan='2'>
+                   
+                        <button type='submit'  class="btn btn-primary"> Submit </button>
+                    </td></tr>
+                  </table>
+                  </form>
+    
+</body>
+</html>
